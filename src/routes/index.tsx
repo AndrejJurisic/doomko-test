@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import { createFileRoute } from "@tanstack/react-router";
 // import { AppSidebar } from "@/components/app-sidebar";
 // import { ChartAreaInteractive } from "@/components/chart-area-interactive";
@@ -16,6 +17,7 @@ function RouteComponent() {
   return (
     <div className="p-2">
       <h3>Welcome Home!</h3>
+      <Button>Click me</Button>
     </div>
   );
   //   const { data, isError, isLoading } = useQuery(
