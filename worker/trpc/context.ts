@@ -1,3 +1,5 @@
+import type { Env, ExecutionContext } from "hono";
+
 export async function createContext({
   req,
   env,
